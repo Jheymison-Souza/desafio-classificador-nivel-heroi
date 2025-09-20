@@ -1,5 +1,5 @@
 let nomeHero = "Aragorne"; // Variável para armazenar o nome do herói
-let xpHero = 1500; // Variável para armazenar o nível de experiência do herói
+let xpHero = 8700; // Variável para armazenar o nível de experiência do herói
 
 let nivelHero; // Variável para armazenar o nível do herói
 
@@ -22,5 +22,5 @@ if (xpHero < 1000) {
   nivelHero = "Radiante";
 }
 
-// Exibe a mensagem final
+// Saída
 console.log(`O Herói de nome **${nomeHero}** está no nível de **${nivelHero}**`);
